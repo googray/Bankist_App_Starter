@@ -7,6 +7,13 @@
 /////////////////////////////////////////////////
 // Data
 
+/////////// TIMELY - INFO FOR TRYING TO TRIAL START
+const info = document.querySelector('body');
+function infoUserName() {
+  alert('Use for a loading - 1 user: js, pin:1111  // 2 user: jd, pin:2222');
+}
+info.addEventListener('click', infoUserName);
+///////////////////////////////////////////////////
 // DIFFERENT DATA! Contains movement dates, currency and locale
 
 const account1 = {
@@ -230,9 +237,9 @@ const startLogOutTimer = function () {
 let currentAccount, timer;
 
 // FAKE ALWAYS LOGGED IN
-// currentAccount = account1;
-// updateUI(currentAccount);
-// containerApp.style.opacity = 100;
+currentAccount = account1;
+updateUI(currentAccount);
+containerApp.style.opacity = 100;
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
