@@ -8,7 +8,7 @@
 // Data
 
 /////////// TIMELY - INFO FOR TRYING TO TRIAL START
-const info = document.querySelector('body');
+const info = document.querySelector('.login__input--user');
 function infoUserName() {
   alert('Use for a loading - 1 user: js, pin:1111  // 2 user: jd, pin:2222');
 }
