@@ -10,7 +10,7 @@
 /////////// TIMELY - INFO FOR TRYING TO TRIAL START
 const info = document.querySelector('body');
 function infoUserName() {
-  alert('Use for a loading - 1 use: js, pin:1111  // 2 use: jd, pin:2222');
+  alert('Use for a loading - 1 user: js, pin:1111  // 2 user: jd, pin:2222');
 }
 info.addEventListener('click', infoUserName);
 ///////////////////////////////////////////////////
